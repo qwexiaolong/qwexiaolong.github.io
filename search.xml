@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>视觉叙事的艺术：StoryDiffusion打造一致性图像/视频故事创作</title>
+      <link href="/posts/2013454d.html"/>
+      <url>/posts/2013454d.html</url>
+      
+        <content type="html"><![CDATA[<h1>1.摘要总觉</h1><pre><code>本文提出了一种名为StoryDiffusion的新方法，用于生成一系列内容一致的图像和视频，特别是那些包含主体和复杂细节的图像。StoryDiffusion通过两种新颖的组件来实现这一目标：Consistent Self-Attention（一致性自注意力）和Semantic Motion Predictor（语义运动预测器）。</code></pre><h2 id="1-1-Consistent-Self-Attention：">1.1 Consistent Self-Attention：</h2><pre><code>这是一种新的自注意力计算方式，能够在不需要训练的情况下，通过零样本（zero-shot）的方式显著提升生成图像间的一致性。它通过在自注意力的计算过程中引入参考图像的采样token，增强了图像间的身份和服饰一致性，这对于讲述故事/故事绘本至关重要。</code></pre><h2 id="1-2-Semantic-Motion-Predictor：">1.2 Semantic Motion Predictor：</h2><pre><code>这是一个新颖的语义空间时间运动预测模块，它被训练用来估计两张给定图像在语义空间中的运动条件。该模块能够将生成的图像序列转换为具有平滑过渡和一致主体的视频，特别是在长视频生成的背景下，相比于仅基于浅特征空间的模块，它提供了更稳定的结果。</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MD </tag>
+            
+            <tag> 初始标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="/posts/2013454d.html"/>
+      <url>/posts/2013454d.html</url>
+      
+        <content type="html"><![CDATA[<h1>1.测试</h1><p>喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Test </tag>
+            
+            <tag> 测试标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>

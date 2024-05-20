@@ -1,20 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fomalhaut🥝</title>
+  <title>ReZeZzz🥝</title>
   
   
   <link href="https://www.fomal.cc/atom.xml" rel="self"/>
   
   <link href="https://www.fomal.cc/"/>
-  <updated>2022-10-23T14:00:00.000Z</updated>
+  <updated>2024-05-20T01:56:10.000Z</updated>
   <id>https://www.fomal.cc/</id>
   
   <author>
-    <name>Fomalhaut🥝</name>
+    <name>ReZeZzz</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>视觉叙事的艺术：StoryDiffusion打造一致性图像/视频故事创作</title>
+    <link href="https://www.fomal.cc/posts/2013454d.html"/>
+    <id>https://www.fomal.cc/posts/2013454d.html</id>
+    <published>2024-05-20T01:56:03.000Z</published>
+    <updated>2024-05-20T01:56:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>1.摘要总觉</h1><pre><code>本文提出了一种名为StoryDiffusion的新方法，用于生成一系列内容一致的图像和视频，特别是那些包含主体和复杂细节的图像。StoryDiffusion通过两种新颖的组件来实现这一目标：Consistent Self-Attention（一致性自注意力）和Semantic Motion Predictor（语义运动预测器）。</code></pre><h2 id="1-1-Consistent-Self-Attention：">1.1 Consistent Self-Attention：</h2><pre><code>这是一种新的自注意力计算方式，能够在不需要训练的情况下，通过零样本（zero-shot）的方式显著提升生成图像间的一致性。它通过在自注意力的计算过程中引入参考图像的采样token，增强了图像间的身份和服饰一致性，这对于讲述故事/故事绘本至关重要。</code></pre><h2 id="1-2-Semantic-Motion-Predictor：">1.2 Semantic Motion Predictor：</h2><pre><code>这是一个新颖的语义空间时间运动预测模块，它被训练用来估计两张给定图像在语义空间中的运动条件。该模块能够将生成的图像序列转换为具有平滑过渡和一致主体的视频，特别是在长视频生成的背景下，相比于仅基于浅特征空间的模块，它提供了更稳定的结果。</code></pre>]]></content>
+    
+    
+    <summary type="html">🥧StoryDiffusion打造一致性图像/视频故事创作</summary>
+    
+    
+    
+    <category term="演示" scheme="https://www.fomal.cc/categories/%E6%BC%94%E7%A4%BA/"/>
+    
+    
+    <category term="MD" scheme="https://www.fomal.cc/tags/MD/"/>
+    
+    <category term="初始标签" scheme="https://www.fomal.cc/tags/%E5%88%9D%E5%A7%8B%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://www.fomal.cc/posts/2013454d.html"/>
+    <id>https://www.fomal.cc/posts/2013454d.html</id>
+    <published>2024-05-20T01:56:03.000Z</published>
+    <updated>2024-05-20T01:56:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>1.测试</h1><p>喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵</p>]]></content>
+    
+    
+    <summary type="html">🥧测试文档</summary>
+    
+    
+    
+    <category term="演示" scheme="https://www.fomal.cc/categories/%E6%BC%94%E7%A4%BA/"/>
+    
+    
+    <category term="Test" scheme="https://www.fomal.cc/tags/Test/"/>
+    
+    <category term="测试标签" scheme="https://www.fomal.cc/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
